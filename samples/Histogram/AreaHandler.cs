@@ -170,17 +170,22 @@ namespace Histogram
 
         public void MouseCrossed(AreaBase area, int left)
         {
-            //throw new NotImplementedException();
+            
         }
 
         public void DragBroken(AreaBase area)
         {
-            //throw new NotImplementedException();
+            
         }
 
         public bool KeyEvent(AreaBase area, ref AreaKeyEvent keyEvent)
         {
             return false;
+        }
+
+        public void MouseCrossed(AreaBase area, bool left)
+        {
+             
         }
     }
 }

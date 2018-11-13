@@ -307,6 +307,11 @@ namespace Tester
                 //throw new NotImplementedException();
                 return false;
             }
+
+            public void MouseCrossed(AreaBase area, bool left)
+            {
+                 
+            }
         }
 
         void resize(AreaBase area, bool cond , WindowResizeEdge edge )

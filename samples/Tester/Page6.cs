@@ -54,6 +54,11 @@ namespace Tester
                 Console.WriteLine($"key key:{Encoding.UTF8.GetString(k)} extkey:{keyEvent.ExtKey} mod:{keyEvent.Modifier} mods:{keyEvent.Modifiers} up:{keyEvent.Up}");
                 return _owner._swallowKeys.IsChecked;
             }
+
+            public void MouseCrossed(AreaBase area, bool left)
+            {
+                 
+            }
         }
 
         private VerticalBox _container;

@@ -9,7 +9,7 @@ namespace Tester
         private Tab _outerTab;
         private MainTabPage _mainTabPage;
 
-        public MainWindow(string title, int width = 500, int height = 200, bool hasMenubar = false) : base(title, width, height, hasMenubar)
+        public MainWindow(string title, int width = 700, int height = 300, bool hasMenubar = false) : base(title, width, height, hasMenubar)
         {
             InitializeComponent();
         }

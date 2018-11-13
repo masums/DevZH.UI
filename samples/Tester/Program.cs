@@ -12,7 +12,7 @@ namespace Tester
         {
             var app = new Application(false);
             InitMenus(app);
-            var window = new MainWindow("Main Window", 320, 240, true);
+            var window = new MainWindow("Main Window", 720,340, true);
             window.AllowMargins = true;
             // libui bug for gtk3?
             //window.StartPosition = WindowStartPosition.CenterScreen;
